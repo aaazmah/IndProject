@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+    <%- include('./partials/head.ejs') %> 
+
+    <body>
+
+        <!-- Navigation bar -->
+        <%- include('./partials/nav.ejs') %> 
+
+        <section>
+           
+            <div class="imageContainer">
+                <h1>Welcome to Excellence</h1>    
+                
+            </div>
+           
+        </section>
+        
+        <!-- About us -->
+        
+        <section>
+            <div class="infocontainer">
+                
+                <div class="title"> About us! </div>
+                
+                <div class="sidebyside">
+
+                    <div class="aboutus">
+                        <img src="/logo.png" class="logojd">
+                    </div>
+    
+
+                    <div class="about"> 
+                        <p class="description">
+                            porem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an unknown printer  took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
+                            into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s  with the release of Letraset sheets containing Lorem Ipsum passages,
+                            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                            porem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an unknown printer  took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
+                            into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s  with the release of Letraset sheets containing Lorem Ipsum passages,
+                            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        </p>
+                    </div>
+    
+                 
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section>
+            
+            <div class="test">
+                
+            <div class="gallerytitle"> Gallery! </div>
+            <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                
+                <img src="img1.jpeg" style="width:100%">
+                <div class="text">Residential</div>
+            </div>
+            
+            <div class="mySlides fade">
+                
+                <img src="img3.jpeg" style="width:100%">
+                <div class="text">Residential</div>
+            </div>
+            
+            <div class="mySlides fade">
+                
+                <img src="img5.jpeg" style="width:100%">
+                <div class="text">Residential</div>
+            </div>
+            
+            <div class="mySlides fade">
+                
+                <img src="img7.jpeg" style="width:100%">
+                <div class="text">Residential</div>
+            </div>
+            
+            <div class="mySlides fade">
+                
+                <img src="img8.jpeg" style="width:100%">
+                <div class="text">Residential</div>
+            </div>
+            
+            <div class="mySlides fade">
+                
+                <img src="img9.jpeg" style="width:100%">
+                <div class="text">Residential</div>
+            </div>
+            
+            <div class="mySlides fade">
+                
+                <img src="img10.jpeg" style="width:100%">
+                <div class="text">Residential</div>
+            </div>
+            
+
+                <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+            
+            <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7   )"></span>
+        </div>
+
+            </div>
+            
+
+        </section>
+
+        <section>
+            <div class="contact">
+                <div class="contact-title"> Contact us! </div>
+
+                <div class="container">
+                    
+                    <div style="text-align:center">
+                      <h2>Reach out to us!</h2>
+                      <p>When you're in need of a dependable Construction Company, don’t hesitate. We want to hear from you. Contact J & D Framing Construction today!</p>
+                    </div>
+                   
+                   
+                    <div class="row">
+                      
+                        <div class="column">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3086.0747824866266!2d-76.4451334846367!3d39.33189117950599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c7fd43195e2ea3%3A0x275c442bf4f38b73!2s2104%20Old%20Orems%20Rd%2C%20Middle%20River%2C%20MD%2021220!5e0!3m2!1sen!2sus!4v1606141382596!5m2!1sen!2sus" 
+                            width="600" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                            <P> Address - 2104 Old Orems Road Baltimore MD, 21220</P>
+                            <P> Email Address - janddframingconstruction@gmail.com</P> 
+                            <P> Phone Number - 443-846-6878</P>
+                        </div>
+
+                      <div class="column">
+                        <form action="/action_page.php">
+                          <label for="fname">Name</label>
+                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                          <label for="lname">Address</label>
+                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                          <label for="phonenumber">Phone number</label>
+                          <input type="phonenumber" id="phonenumber" name="phonenumber" placeholder="Your Phone number">
+
+                          <label for="email">Email</label>
+                          <input type="email" id="email" name="email" placeholder="Your Email Address">
+                          
+                          <label for="subject">Subject</label>
+                          <input type="subject" id="subject" name="subject" placeholder="Subject">  
+                          
+
+       
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                          <input type="submit" value="Submit">
+                        </form>
+                      </div>
+
+                    </div>
+
+                  </div> 
+    
+            </div>
+
+        </section>
+
+
+        
+        <%- include('./partials/footer.ejs') %> 
+
+
+
+        <script type="text/javascript" src="main.js"></script>
+        <script src="https://kit.fontawesome.com/6508c94337.js" crossorigin="anonymous"></script>
+    </body>
+</html>
